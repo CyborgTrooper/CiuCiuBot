@@ -138,7 +138,7 @@ class Product(TableDeclarativeBase):
 
 
 class Transaction(TableDeclarativeBase):
-    """A greed wallet transaction.
+    """A ciuciubot wallet transaction.
     Wallet credit ISN'T calculated from these, but they can be used to recalculate it."""
     # TODO: split this into multiple tables
 
@@ -188,7 +188,7 @@ class Transaction(TableDeclarativeBase):
 
 
 class Admin(TableDeclarativeBase):
-    """A greed administrator with his permissions."""
+    """A ciuciubot administrator with his permissions."""
 
     # The telegram id
     user_id = Column(BigInteger, ForeignKey("users.user_id"), primary_key=True)

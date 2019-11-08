@@ -1,4 +1,4 @@
-# Strings / localization file for greed
+# Strings / localization file for ciuciubot
 # Can be edited, but DON'T REMOVE THE REPLACEMENT FIELDS (words surrounded by {curly braces})
 # Current localization is Italian
 
@@ -244,6 +244,8 @@ ask_product_name = "Come si deve chiamare il prodotto?"
 # Add product: description?
 ask_product_description = "Quale deve essere la descrizione del prodotto?"
 
+description = "descrizione"
+
 # Add product: price?
 ask_product_price = "Quanto deve costare il prodotto?\n" \
                     "Scrivi <code>X</code> se vuoi che il prodotto non sia ancora in vendita."
@@ -298,10 +300,10 @@ downloading_image = "Sto scaricando la tua foto!\n" \
                     "Non sarò in grado di risponderti durante il download."
 
 # Edit product: current value
-edit_current_value = "Il valore attuale è:\n" \
+edit_current_value = "Attualmente è:\n" \
                      "<pre>{value}</pre>\n" \
                      "\n" \
-                     "<i>Premi il tasto Salta sotto questo messaggio per mantenere lo stesso valore.</i>"
+                     "<i>Premi il tasto Salta sotto questo messaggio per mantenere.</i>"
 
 # Payment: cash payment info
 payment_cash = "Puoi pagare in contanti alla sede fisica del negozio.\n" \
@@ -350,15 +352,15 @@ refund_reason = "Motivazione del rimborso:\n" \
                 "{reason}"
 
 # Info: informazioni sul bot
-bot_info = 'Questo bot utilizza <a href="https://github.com/Steffo99/greed">greed</a>,' \
-           ' un framework di @Steffo per i pagamenti su Telegram rilasciato sotto la' \
-           ' <a href="https://github.com/Steffo99/greed/blob/master/LICENSE.txt">' \
+bot_info = 'Questo bot utilizza <a href="https://github.com/CyborgTrooper/CiuCiuBot">CiuCiuBot</a>,' \
+           ' un framework di @CyborgTrooper per i pagamenti su Telegram rilasciato sotto la' \
+           ' <a href="https://github.com/CyborgTrooper/CiuCiuBot/blob/master/LICENSE.txt">' \
            'Affero General Public License 3.0</a>.\n' \
            'Il codice sorgente di questa versione è disponibile <i>qui</i>.\n'
 
 # Help: guide
 help_msg = "La guida del bot è disponibile a questo indirizzo:\n" \
-           "https://github.com/Steffo99/greed/wiki"
+           "https://github.com/CyborgTrooper/CiuCiuBot/blob/master/wiki"
 
 # Help: contact shopkeeper
 contact_shopkeeper = "Attualmente, il personale disponibile ad offrire assistenza agli utenti è composto da:\n" \
@@ -423,5 +425,5 @@ error_user_does_not_exist = "⚠️  L'utente selezionato non esiste."
 
 # Fatal: conversation raised an exception
 fatal_conversation_exception = "☢️ Oh no! Un <b>errore</b> ha interrotto questa conversazione.\n" \
-                               "L'errore è stato segnalato allo sviluppatore di greed in modo che possa sistemarlo.\n" \
+                               "L'errore è stato segnalato allo sviluppatore di CiuCiuBot in modo che possa sistemarlo.\n" \
                                "Per avviare una nuova conversazione, invia il comando /start."

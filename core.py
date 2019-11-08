@@ -12,7 +12,7 @@ def main():
 
     # Rename the main thread for presentation purposes
     threading.current_thread().name = "Core"
-    division_by_zero = 1 / 0
+
     # Create a bot instance
     bot = utils.DuckBot(configloader.config["Telegram"]["token"])
 
@@ -32,7 +32,7 @@ def main():
     next_update = None
 
     # Notify on the console that the bot is starting
-    print("greed-bot is now starting!")
+    print("ciuciubot-bot is now starting!")
 
     # Main loop of the program
     while True:

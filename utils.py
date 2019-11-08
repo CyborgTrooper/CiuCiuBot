@@ -20,7 +20,7 @@ else:
 
 
 class Price:
-    """The base class for the prices in greed.
+    """The base class for the prices in CiuCiuBot.
     Its int value is in minimum units, while its float and str values are in decimal format.int("""
     def __init__(self, value: typing.Union[int, float, str, "Price"]=0):
         if isinstance(value, int):
